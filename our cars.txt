@@ -1,0 +1,267 @@
+        <section id="our-cars" className="section-padding">
+          <div className="container">
+            <div className="row">
+              {/* Section Title Start */}
+              <div className="col-lg-12">
+                <div className="section-title  text-center">
+                  <h2>Our cars</h2>
+                  <span className="title-line"><i className="fa fa-car" /></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              {/* Section Title End */}
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="team-content">
+                  <div className="row">
+                    {/* OurCars Tab Menu start */}
+                    <div className="col-lg-3">
+                      <div className="ourcar-tab-menu">
+                        <ul className="nav nav-tabs" id="ourcartabmenu" role="tablist">
+                          <li className="nav-item">
+                            <a className="nav-link active" id="ourcar_item_1" data-toggle="tab" href="#ourcar_1" role="tab" aria-selected="true">VW Golf VII</a>
+                          </li>
+                          <li className="nav-item">
+                            <a className="nav-link" id="ourcar_item_2" data-toggle="tab" href="#ourcar_2" role="tab" aria-selected="true">Audi A1 S-LINE</a>
+                          </li>
+                          <li className="nav-item">
+                            <a className="nav-link" id="ourcar_item_3" data-toggle="tab" href="#ourcar_3" role="tab" aria-selected="true">VW Golf VII</a>
+                          </li>
+                          <li className="nav-item">
+                            <a className="nav-link" id="ourcar_item_4" data-toggle="tab" href="#ourcar_4" role="tab" aria-selected="true">Audi A1 S-LINE</a>
+                          </li>
+                          <li className="nav-item">
+                            <a className="nav-link" id="ourcar_item_5" data-toggle="tab" href="#ourcar_5" role="tab" aria-selected="true">VW Golf VII</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    {/* OurCars Tab Menu End */}
+                    {/* OurCars Tab Content start */}
+                    <div className="col-lg-9">
+                      <div className="tab-content" id="ourcartabcontent">
+                        {/* Single OurCars  start */}
+                        <div className="tab-pane fade show active" id="ourcar_1" role="tabpanel" aria-labelledby="ourcar_item_1">
+                          <div className="row">
+                            <div className="col-lg-8 text-center">
+                              <div className="display-table">
+                                <div className="display-table-cell">
+                                  <div className="ourcar-pic">
+                                    <img src="assets/img/car/car-5.jpg" alt="JSOFT" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col-lg-4">
+                              <div className="ourcar-info text-center">
+                                <h2>$ 75.40 <span>Rent per day</span></h2>
+                                <table className="our-table">
+                                  <tbody><tr>
+                                      <td>Model</td>
+                                      <td>Limousine</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Doors</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Seats</td>
+                                      <td>15</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Transmission</td>
+                                      <td>Automatic</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Air conditioning</td>
+                                      <td>Yes</td>
+                                    </tr>
+                                  </tbody></table>
+                                <a href="#" className="bookbtn">Book Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Single OurCars End */}
+                        {/* Single OurCars  start */}
+                        <div className="tab-pane fade" id="ourcar_2" role="tabpanel" aria-labelledby="ourcar_item_2">
+                          <div className="row">
+                            <div className="col-lg-8 text-center">
+                              <div className="display-table">
+                                <div className="display-table-cell">
+                                  <div className="ourcar-pic">
+                                    <img src="assets/img/car/car-1.jpg" alt="JSOFT" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col-lg-4">
+                              <div className="ourcar-info text-center">
+                                <h2>$ 75.40 <span>Rent per day</span></h2>
+                                <table className="our-table">
+                                  <tbody><tr>
+                                      <td>Model</td>
+                                      <td>Limousine</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Doors</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Seats</td>
+                                      <td>15</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Transmission</td>
+                                      <td>Automatic</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Air conditioning</td>
+                                      <td>Yes</td>
+                                    </tr>
+                                  </tbody></table>
+                                <a href="#" className="bookbtn">Book Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Single OurCars End */}
+                        {/* Single OurCars  start */}
+                        <div className="tab-pane fade" id="ourcar_3" role="tabpanel" aria-labelledby="ourcar_item_3">
+                          <div className="row">
+                            <div className="col-lg-8 text-center">
+                              <div className="display-table">
+                                <div className="display-table-cell">
+                                  <div className="ourcar-pic">
+                                    <img src="assets/img/car/car-2.jpg" alt="JSOFT" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col-lg-4">
+                              <div className="ourcar-info text-center">
+                                <h2>$ 75.40 <span>Rent per day</span></h2>
+                                <table className="our-table">
+                                  <tbody><tr>
+                                      <td>Model</td>
+                                      <td>Limousine</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Doors</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Seats</td>
+                                      <td>15</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Transmission</td>
+                                      <td>Automatic</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Air conditioning</td>
+                                      <td>Yes</td>
+                                    </tr>
+                                  </tbody></table>
+                                <a href="#" className="bookbtn">Book Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Single OurCars End */}
+                        {/* Single OurCars  start */}
+                        <div className="tab-pane fade" id="ourcar_4" role="tabpanel" aria-labelledby="ourcar_item_4">
+                          <div className="row">
+                            <div className="col-lg-8 text-center">
+                              <div className="display-table">
+                                <div className="display-table-cell">
+                                  <div className="ourcar-pic">
+                                    <img src="assets/img/car/car-3.jpg" alt="JSOFT" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col-lg-4">
+                              <div className="ourcar-info text-center">
+                                <h2>$ 75.40 <span>Rent per day</span></h2>
+                                <table className="our-table">
+                                  <tbody><tr>
+                                      <td>Model</td>
+                                      <td>Limousine</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Doors</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Seats</td>
+                                      <td>15</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Transmission</td>
+                                      <td>Automatic</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Air conditioning</td>
+                                      <td>Yes</td>
+                                    </tr>
+                                  </tbody></table>
+                                <a href="#" className="bookbtn">Book Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Single OurCars End */}
+                        {/* Single OurCars  start */}
+                        <div className="tab-pane fade" id="ourcar_5" role="tabpanel" aria-labelledby="ourcar_item_5">
+                          <div className="row">
+                            <div className="col-lg-8 text-center">
+                              <div className="display-table">
+                                <div className="display-table-cell">
+                                  <div className="ourcar-pic">
+                                    <img src="assets/img/car/car-4.jpg" alt="JSOFT" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col-lg-4">
+                              <div className="ourcar-info text-center">
+                                <h2>$ 75.40 <span>Rent per day</span></h2>
+                                <table className="our-table">
+                                  <tbody><tr>
+                                      <td>Model</td>
+                                      <td>Limousine</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Doors</td>
+                                      <td>5</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Seats</td>
+                                      <td>15</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Transmission</td>
+                                      <td>Automatic</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Air conditioning</td>
+                                      <td>Yes</td>
+                                    </tr>
+                                  </tbody></table>
+                                <a href="#" className="bookbtn">Book Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        {/* Single OurCars End */}
+                      </div>
+                    </div>
+                    {/* OurCars Tab Content End */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
